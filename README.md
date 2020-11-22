@@ -1,1 +1,1 @@
-# Traffic Patter Modelling using Computer Vision (CNNs)
+# Traffic Patter Modelling using Convolutional Neural Networks (CNNs)
