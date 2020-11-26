@@ -26,9 +26,9 @@ from datetime import timedelta, time, date, datetime
 
 # Inputs.
 initial_time  = time(8, 0, 35)
-n = 300
-label = 'car'
-directory = 'Output\Labels\traffic_data.npy'
+n = 600
+label = 'truck'
+directory = 'Output//Labels//traffic_data.npy'
 
 # Import labels array.
 full_array = np.load(directory, allow_pickle=True)
