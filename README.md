@@ -2,6 +2,7 @@
 
 <p float="left" align="center">
   <img src="/Output/Images/highway_2_output.jpg" width="400"  />
+  ![Alt Text](/Output/Videos/security_camera_output.gif)
   <img src="/Output/Images/highway_3_output.jpg" width="400"  />
 </p>
 
