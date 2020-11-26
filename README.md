@@ -9,15 +9,15 @@ This project is divided in three parts.
 
 1. Classification network (classification_network.py).
 
-   This file can be used to train a convolutional neural network for a classification task.
-   The model is uses an Inception network (Inception V1 or GoogLeNet). The model
-   uses TensorFlow Keras, and was trained using Google Colab (See the attached 
-   Colab Notebook for reference - classification_model.ipynb).
-   
-   In order for this file to work, you must add training and validation images
-   to the respective folders in the Dataset folder. Those were not added to the 
-   Github repository due to size constraints. However, training images can be 
-   downloaded from the COCO dataset or any other open-source image datatset.
+        This file can be used to train a convolutional neural network for a classification task.
+        The model is uses an Inception network (Inception V1 or GoogLeNet). The model
+        uses TensorFlow Keras, and was trained using Google Colab (See the attached 
+        Colab Notebook for reference - classification_model.ipynb).
+        
+        In order for this file to work, you must add training and validation images
+        to the respective folders in the Dataset folder. Those were not added to the 
+        Github repository due to size constraints. However, training images can be 
+        downloaded from the COCO dataset or any other open-source image datatset.
    
 2. Object detection in images and videos using DarkNet and YOLO (object_detection.py).
 
