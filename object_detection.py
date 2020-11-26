@@ -43,8 +43,8 @@ import numpy as np
 
 # Inputs.
 img_or_vid = 'img'
-input_file = 'Input/Images/dog.jpg'
-output_file = 'Output/Images/dog_output.jpg'
+input_file = 'Input/Videos/highway_video.mp4'
+output_file = 'Output/Videos/highway_video.avi'
 weights_file = 'yolov3_darknet.weights'
 cfg_file = 'yolov3_darknet.cfg'
 labels_file = 'coco.csv'
@@ -77,7 +77,7 @@ if img_or_vid == 'vid':
     # Create a new video.
     _, first_frame = video.read()
     video_shape = first_frame.shape
-    new_video = CW(output_file, 1196444237, mt.floor(fps), 
+    new_video = CW(output_file, cv2.VideoWriter_fourcc('M','J','P','G'), mt.floor(fps), 
                   (video_shape[1], video_shape[0]), isColor = True)   
     
     # Process the video.
