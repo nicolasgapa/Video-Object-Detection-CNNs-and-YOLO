@@ -1,9 +1,8 @@
 # Traffic Pattern Modelling using Convolutional Neural Networks (CNNs)
 
 <p float="left" align="center">
-  <img src="/Output/Images/highway_2_output.jpg" width="250"  />
-  <img src="/Output/Videos/security_camera_output.gif" width="300" />
-  <img src="/Output/Images/highway_3_output.jpg" width="250"  />
+  <img src="/Output/Videos/security_camera_output.gif" width="400" />
+  <img src="/Output/Videos/highway_output.gif" width="400" />
 </p>
 
 This project is divided in three parts. 
@@ -51,5 +50,9 @@ This project is divided in three parts.
   <img src="/Output/Images/dog_output.jpg" width="200"  />
   <img src="/Output/Images/krakow_output.jpg" width="200"  />
   <img src="/Output/Images/university_output.jpg" width="400"  />
+</p>
+<p float="left" align="center">
+  <img src="/Output/Images/highway_2_output.jpg" width="400"  />
+  <img src="/Output/Images/highway_3_output.jpg" width="400"  />
 </p>
    
