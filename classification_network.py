@@ -22,8 +22,8 @@ to the respective folders. Those were not added to the Github repository due
 to size. However, training images can be downloaded from the COCO dataset or 
 any other open-source image datatset.
 
-The inception model is imported from a different file saved in the same folder 
-as this file. The Inception network in that file (inception_network.py) was 
+The inception model is imported from the inception_network.py file, saved 
+under the same directory as this file. The Inception network in that file was 
 originally implemented by FAIZAN SHAIKH, and can be found in the following 
 link: https://www.analyticsvidhya.com/blog/2018/10/understanding-inception-network-from-scratch/
 The model was modified to meet the requirements of this project.
