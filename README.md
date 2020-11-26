@@ -49,6 +49,6 @@ This project is divided in three parts.
 <p float="left" align="center">
   <img src="/Output/Images/dog_output.jpg" width="200"  />
   <img src="/Output/Images/krakow_output.jpg" width="200"  />
-  <img src="/Output/Images/university_output.jpg" width="200"  />
+  <img src="/Output/Images/university_output.jpg" width="400"  />
 </p>
    
