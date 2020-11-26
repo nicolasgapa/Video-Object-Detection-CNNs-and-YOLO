@@ -32,7 +32,7 @@ This project is divided in three parts.
           the objects found per video frame). 
 
           Note: In order for this model to work properly, the pre-trained weights of the DarkNet
-          model must be downloaded and placed inn= the same directory as the object_detection.py
+          model must be downloaded and placed in the same directory as the object_detection.py
           file. The weights were not uploaded to Github due to size contraints. However, they can be
           downloaded from the following link (download the Yolov3-416 weights file):
 
