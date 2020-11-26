@@ -10,7 +10,7 @@ This project is divided in three parts:
 1. Classification network (classification_network.py).
 
           The file can be used to train a convolutional neural network for a classification task.
-          The model is uses an Inception network (Inception V1 or GoogLeNet). The model
+          The model uses an Inception network (Inception V1 or GoogLeNet). The model
           uses TensorFlow Keras, and was trained using Google Colab (See the attached 
           Colab Notebook for reference - classification_model.ipynb).
 
