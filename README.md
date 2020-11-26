@@ -5,7 +5,7 @@
   <img src="/Output/Videos/highway_output.gif" width="400" />
 </p>
 
-This project is divided in three parts. 
+This project is divided in three parts: 
 
 1. Classification network (classification_network.py).
 
