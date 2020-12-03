@@ -27,7 +27,7 @@ from datetime import timedelta, time, date, datetime
 # Inputs.
 initial_time  = time(8, 0, 35)
 n = 600
-label = 'truck'
+label = 'all'
 directory = 'Output//Labels//traffic_data.npy'
 
 # Import labels array.
@@ -47,7 +47,11 @@ with open('coco.csv', 'r') as lines:
   coco_labels = lines.readlines()[0].split(',')
     
 # Moving average.
-series = pd.Series(obj_ct_array[:, coco_labels.index(label)])
+if label == 'all':
+    df = obj_ct_array.sum(axis=1)
+    series = pd.Series(df)
+else:
+    series = pd.Series(obj_ct_array[:, coco_labels.index(label)])
 moving_average = series.rolling(n).mean()
 
 # Plot.
