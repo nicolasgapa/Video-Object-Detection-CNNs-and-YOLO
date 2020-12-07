@@ -1,4 +1,4 @@
-# Traffic Pattern Modelling using Convolutional Neural Networks (CNNs)
+# Object Detection - Traffic Pattern Modelling using Convolutional Neural Networks (CNNs) and YOLO
 
 <p float="left" align="center">
   <img src="/Output/Videos/security_camera_output.gif" width="400" />
