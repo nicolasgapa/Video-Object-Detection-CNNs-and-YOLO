@@ -5,7 +5,7 @@
   <img src="/Output/Videos/highway_output.gif" width="400" />
 </p>
 
-This project is divided in three parts: 
+This model explores the use of CNNs for traffic pattern modelling using a security camera, Python, TensorFlow and Google Colab. The model uses CNNs to detect and classify objects in camera recordings. The model identifies traffic patterns of objects such as cars, motorcycles, bicycles, and people. This project is divided in three parts: 
 
 1. Classification network (classification_network.py).
 
